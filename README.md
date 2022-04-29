@@ -14,7 +14,7 @@
 到 [番组计划开发者平台](https://bgm.tv/dev/app) 创建一个应用   
 创建一个config.py文件
 ```python
-SERVER_URL = "你服务器的地址/callback" # 例如https://foo.bar/callback
+SERVER_URL = "你服务器的地址/callback" # 例如https://foo.bar/callback 注意需要和你在开发者平台设置的回调地址一致
 PUSH_KEY = "PushDeer的Push Key"
 CLIENT_ID = "APP ID"
 CLIENT_SECRET = "APP Secret"
