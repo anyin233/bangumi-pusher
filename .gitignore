@@ -2,3 +2,4 @@ config.py
 __pypackages__
 .idea
 .pdm.toml
+__pycache__
