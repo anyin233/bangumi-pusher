@@ -47,7 +47,7 @@ def background_task():
 @app.get("/callback")
 def create_client(code: str):
     status = client.auth(code)
-    new_job = scheduler.add_job(background_task, 'interval', minutes=1)
+    new_job = scheduler.add_job(background_task, 'corn', hour=20)
     jobs.append(new_job)
     scheduler.start()
     return {"status": status}
